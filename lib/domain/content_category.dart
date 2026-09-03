@@ -1,0 +1,1 @@
+enum ContentCategory { adultContent, social }
