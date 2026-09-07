@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Curfew',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: BlockRulesScreen(blockRules: _defaultBlockRules()),
+      home: Scaffold(body: BlockRulesScreen(blockRules: _defaultBlockRules())),
     );
   }
 }
