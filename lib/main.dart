@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Curfew',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      // when there was no scaffold in this line it was showing me an error what is the resone
       home: Scaffold(body: BlockRulesScreen(blockRules: _defaultBlockRules())),
     );
   }
